@@ -78,3 +78,38 @@ $$eCl =\frac{\ln(1-r_{mr0})+1.834}{2.107}$$
 
 Equation used to calculate eCl if rmr0 model is after Ketcham (2007):
 $$eCl  = 1-\left[\Big(\frac{r_{mr0}}{0.857015}\Big)^{(\frac{1}{0.23})}+0.13\right]$$
+
+
+______
+
+Equation used to calculate the AFT pooled age modified after Donelick (2005), Hasebe (2004):
+$$t_{pooled} = \frac{1}{\lambda_d} \ln\Bigg[1 + \xi \lambda_d \frac{ \sum\limits_{j}^{n} N_{sj}} { \sum\limits_{j}^{n} C_{Uj} A_j}\Bigg]$$
+
+
+And to then calculate 1-sigma error, rearranged after Hasebe (2004):
+$$\sigma_{pooled} = \frac{\sqrt{\sum\limits_{j}^{n}\Big[t_j - t_{pooled}\Big]^2 f(t_k)}}{\sqrt{n-1}}$$
+
+Where $n$ is the number of grains counted in total and $f(t_k), f(t_j)$ are calculated as follows:
+$$f(t_k) = \frac{f(t_j)}{\sum\limits_{j}^{n}f(t_j)}$$
+
+and
+$$f(t_j) =\Bigg[\frac{1}{\sqrt{2\pi} \Big(\frac{ \sigma\left[t_j\right]}{t_j}\Big)}\Bigg]$$
+
+
+Following the calculation of the pooled ages and pooled age errors, the commonly used $\chi^2$ is calculated after Vermeesch (2017).
+
+$$\chi^{2}_{stat} = \sum\limits_{j}^{n}\Big(\frac{z_j}{s_j}\Big)^2 - \frac{\Big[\sum\limits_{j}^{n} \Big(\frac{z_j}{s_j^2}\Big)\Big]^2}{\sum\limits_{j}^{n}\Big(\frac{1}{s_j^2}\Big)}$$
+
+where
+$$z_j = \ln\Big({t_j}\Big)$$
+
+and
+$$s_j =\frac{\sigma\left[t_j\right]}{t_j}$$
+
+
+To calculate probability of null hypothesis given $\chi^2$ value (the $P(\chi^2)$ ), the FTAC takes use of a python package from scipy. The output is in percentage: 
+$$P(\chi^2) = stats.chi2.sf(\chi^2, n-1)100$$
+
+
+
+The central age is calculated after Galbraith (2005) using the Newton-Raphson method of approximation. The included script to calculate the central age is included in
