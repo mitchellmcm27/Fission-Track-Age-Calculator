@@ -21,7 +21,7 @@ The final equation with respect to time becomes:
 $$t=\frac{1}{\lambda_d}\ln\Bigg[1+\lambda_d \ \xi \ \frac{\rho}{C_U}\Bigg] \ \Longrightarrow \ \xi=\frac{M_{238U}}{\lambda_{f} \ No \ d \ R \ q}$$
 Where, $M_{238U}$ is the atomic mass of 238U, $No$ is Avogadro's number, $d$ is the density of the mineral, $R$ is the etchable range of one fission fragment (generally taken as half the confined track length $l_0/2$), and $q$ is the detection efficiency factor.  Where the aggregate factor $\xi$ is made up of $M_{238U}$, $\lambda_{f} $, $No$, $d$, $R$ and $q$ previously defined variables.
 
-To calculate the single grain age standard error ($\sigma\left[t\right]$):
+To calculate the single grain age standard error ( $\sigma\left[t\right]$ ):
 $$\sigma\left[t\right] = t\sqrt{\frac{1}{N_s}+\left[\frac{\sigma[C_U]}{[C_U]}\right]^2}$$
 Where, $N_s$ is the counted track density at the mineral surface $\sigma[C_U]$ is the propagated uncertainty of the 238U measurement and $C_U$ is the 238U measurement.
 
