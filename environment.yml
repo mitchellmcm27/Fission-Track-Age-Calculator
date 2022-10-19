@@ -1,13 +1,33 @@
 channels:
-  - conda-forge
   - defaults
-  - conda-forge/label/broken
+  - conda-forge
 dependencies:
-  - python=3.7
-  - appmode
-  - scipy
-  - seaborn
-  - numpy
+  - anaconda
+  - conda
+  - conda-build
+  - _ipyw_jlab_nb_ext_conf
+  - anaconda-navigator
+  - navigator-updater
+  - python
+  - datashape
   - pandas
-  - matplotlib
-  
+  - jupyterlab
+  - ipywidgets
+  - nodejs
+  - appmode
+  - jupyter
+  - voila
+  - proj4
+  - basemap
+  - mpld3
+  - plotly
+  - dash-core-components
+  - dash
+  - dash-html-components
+  - cartopy
+  - shapely
+  - imutils
+  - opencv
+  - ipynb-py-convert
+  - jupytext
+  - python-kaleido
