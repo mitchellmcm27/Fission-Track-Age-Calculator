@@ -6,13 +6,13 @@ dependencies:
   - anaconda
   - python
   - datashape
-  - pandas
-  - ipywidgets
+#  - pandas
+#  - ipywidgets
   - appmode
 #  - voila
 #  - proj4
 #  - basemap
-  - mpld3
+#  - mpld3
 #  - plotly
 #  - dash-core-components
 #  - dash
@@ -22,6 +22,16 @@ dependencies:
 #  - imutils
 #  - opencv
   - ipynb-py-convert
-  - jupytext
+#  - jupytext
 #  - python-kaleido
-  - seaborn
+#  - seaborn
+  - pip
+  - pip:
+    # pip packages
+    - ipython==8.5.0
+    - ipywidgets==7.5.1
+    - matplotlib==3.3.4
+    - numpy==1.19.2
+    - pandas==1.0.2
+    - scipy==1.5.2
+    - seaborn==0.11.1
