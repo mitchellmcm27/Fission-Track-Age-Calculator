@@ -9,7 +9,7 @@ dependencies:
   - pandas
   - ipywidgets
   - appmode
-  - voila
+#  - voila
 #  - proj4
 #  - basemap
   - mpld3
