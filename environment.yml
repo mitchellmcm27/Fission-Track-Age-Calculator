@@ -13,15 +13,15 @@ dependencies:
 #  - proj4
 #  - basemap
   - mpld3
-  - plotly
-  - dash-core-components
-  - dash
-  - dash-html-components
- # - cartopy
-  - shapely
-  - imutils
-  - opencv
+#  - plotly
+#  - dash-core-components
+#  - dash
+#  - dash-html-components
+#  - cartopy
+#  - shapely
+#  - imutils
+#  - opencv
   - ipynb-py-convert
   - jupytext
-  - python-kaleido
+#  - python-kaleido
   - seaborn
