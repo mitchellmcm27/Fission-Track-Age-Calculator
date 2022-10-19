@@ -3,10 +3,11 @@ channels:
   - conda-forge
 dependencies:
   - _ipyw_jlab_nb_ext_conf
+  - anaconda
   - python
   - datashape
   - pandas
-#  - ipywidgets
+  - ipywidgets
   - appmode
   - voila
 #  - proj4
@@ -23,3 +24,4 @@ dependencies:
   - ipynb-py-convert
   - jupytext
   - python-kaleido
+  - seaborn
