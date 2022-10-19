@@ -6,17 +6,17 @@ dependencies:
   - python
   - datashape
   - pandas
-  - ipywidgets
+#  - ipywidgets
   - appmode
   - voila
-  - proj4
-  - basemap
+#  - proj4
+#  - basemap
   - mpld3
   - plotly
   - dash-core-components
   - dash
   - dash-html-components
-  - cartopy
+ # - cartopy
   - shapely
   - imutils
   - opencv
