@@ -4,7 +4,7 @@ channels:
 dependencies:
   - _ipyw_jlab_nb_ext_conf
   - anaconda
-  - python
+#  - python
   - datashape
   - appmode
 #  - voila
@@ -23,7 +23,7 @@ dependencies:
 #  - jupytext
 #  - python-kaleido
 #  - seaborn
-  - ipython#=8.5.0
+#  - ipython#=8.5.0
   - ipywidgets#=7.5.1
   - matplotlib=3.3.4
   - numpy=1.19.2
