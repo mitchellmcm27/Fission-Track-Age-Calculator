@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - _ipyw_jlab_nb_ext_conf
+  - python=3.6.12
   - anaconda
   - datashape
   - appmode=0.7.0
