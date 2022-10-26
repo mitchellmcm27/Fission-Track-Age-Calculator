@@ -2,17 +2,18 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - python
+  - _ipyw_jlab_nb_ext_conf
+  - python=3.6.12
   - anaconda
   - datashape
-  - appmode
+  - appmode=0.7.0
   - ipynb-py-convert
   - ipywidgets
-  - matplotlib
-  - numpy
-  - pandas
-  - scipy
-  - seaborn
+  - matplotlib=3.3.4
+  - numpy=1.19.2
+  - pandas=1.0.2
+  - scipy=1.5.2
+  - seaborn=0.11.1
 #  - jupytext
 #  - python-kaleido
 #  - seaborn
@@ -32,4 +33,3 @@ dependencies:
 #  - imutils
 #  - opencv
 #  - python
-#  - _ipyw_jlab_nb_ext_conf
