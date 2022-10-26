@@ -5,7 +5,7 @@ dependencies:
   - _ipyw_jlab_nb_ext_conf
   - anaconda
   - datashape
-  - appmode
+  - appmode=0.7.0
   - ipynb-py-convert
   - ipywidgets
   - matplotlib=3.3.4
