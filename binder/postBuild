@@ -1,5 +1,5 @@
 #!/bin/bash
 
-jupyter labextension install @osscar/appmode-jupyterlab
+#jupyter labextension install @osscar/appmode-jupyterlab
 
 #EOF
