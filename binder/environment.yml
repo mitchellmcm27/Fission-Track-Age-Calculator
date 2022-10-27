@@ -2,9 +2,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - nodejs
-  - python
-  - anaconda
+  - python=3.7.10
   - datashape
   - appmode
   - ipynb-py-convert
@@ -14,6 +12,7 @@ dependencies:
   - pandas
   - scipy
   - seaborn
+#  - anaconda
 #  - jupytext
 #  - python-kaleido
 #  - seaborn
